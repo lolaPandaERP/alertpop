@@ -334,37 +334,28 @@ global $db, $conf, $langs;
 
 		<!-- Style CSS for popup -->
 		<style type="text/css">
-		#overlay {
-		position: fixed;
-		top: 100px;
-		/* left: 50%; */
-		width: 100%;
-		height: 100%;
-		display: none;
-		/* align-self: auto; */
-		}
+
 		.popup{
-		width: 100%;
-		top: 0;
-		right: 50%;
-		left: 50px;
-		display: grid;
-		position: absolute;
-		z-index: 101;
+			width: 100%;
+			top: 0;
+			right: 50%;
+			left: 50px;
+			display: grid;
+			position: absolute;
+			z-index: 101;
 		}
 		.cnt223{
-		min-width: 100px;
-		width: 400px;
-		min-height: 100px;
-		margin: 100px auto;
-		background: #fff;
-		position: relative;
-		z-index: 103;
-		padding: 15px 35px;
-		border-radius: 5px;
-		box-shadow: 0 3.5px 4px #34495E;
+			min-width: 100px;
+			width: 400px;
+			min-height: 100px;
+			margin: 100px auto;
+			background: #fff;
+			position: relative;
+			z-index: 103;
+			padding: 15px 35px;
+			border-radius: 5px;
+			box-shadow: 0 3.5px 4px #34495E;
 		}
-
 		.cnt223 p{
 			text-align: center;
 			clear: both;
